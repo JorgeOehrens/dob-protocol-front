@@ -72,6 +72,15 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "react-app-rewired": "2.2.1"
   },
+  "resolutions": {
+    "@polkadot/api": "10.0.1",
+    "@polkadot/api-derive": "10.0.1",
+    "@polkadot/util-crypto": "10.0.1",
+    "@polkadot/x-randomvalues": "10.0.1",
+    "@polkadot/keyring": "10.0.1",
+    "@polkadot/wasm-crypto": "10.0.1",
+    "@polkadot/networks": "10.0.1"
+  },
   "lint-staged": {
     "./**/*.{js,css,ts,tsx}": "eslint --fix"
   }

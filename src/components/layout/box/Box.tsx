@@ -26,7 +26,7 @@ function Box({ onBack, onHome, isNavigationVisible, children }: Props) {
           </div>
         )}
         <h2 className={styles.heading}>
-          Escrow <span className={styles.contract}>contract</span>
+          Dob Protocol <span className={styles.contract}>contract</span>
         </h2>
       </header>
       <div className={styles.body}>{account ? children : <InfoText text='In order to use app, please login.' />}</div>

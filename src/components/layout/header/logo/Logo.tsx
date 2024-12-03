@@ -6,6 +6,7 @@ function Logo() {
     <Link to="/">
       <SVG />
     </Link>
+  
   );
 }
 
